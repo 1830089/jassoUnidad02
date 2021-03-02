@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 73%;
+	background-color:rgb(73,91,149) ;
+	margin: auto;
+	background-repeat: repeat-x;
+}
+
+.contenido{
+	background-color: #FFF;
+}
+
+header{
+	background-color: #000;
+	color:#FFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0px 20px 0px;
+}
+
+p{
+	font-size: 13px;
+	text-align: justify;
+}
+
+.logo{
+	width: 15%;
+	height: 15%;
+}
+
+header>p{
+	width: 20%;
+}
+
+header div{
+	width: 50%;
+}
+
+h1{
+	font-size: 28px;
+}
+
+nav{
+	background:linear-gradient(to right, rgb(223,122,5),rgb(255,255,197));
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	height: 100%;	
+	padding: 15px 20px 15px 20px;
+}	
+
+nav ul li a{
+	text-decoration: none;
+	color:#000;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+nav ul li:hover{
+	background:linear-gradient(to left, rgb(223,122,5),rgb(255,255,197));
+}
+
+.banner{
+	width: 100%;
+}
+
+.principal{
+	display:flex;
+	justify-content: space-around;
+
+}
+
+main{
+	width: 50%;
+}
+
+aside{
+	width: 30%;
+}
+
+h2{
+	font-size:24px; 
+	text-transform: capitalize;
+}
+
+h3{
+	font-size:20px; 
+	text-transform: capitalize;
+}
+
+.principal section{
+	margin-top:10px; 
+}
+
+.fotos_artistas{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.fotos_artistas img{
+	width: 25%;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.enlace-gris{
+	font-size:12px;
+	color: #000;
+	text-align:right; 
+	display: block; 
+}
+
+.enlace-gris:hover{
+	font-size:12px;
+	color: rgb(119,119,119);
+}
+
+#iphone{
+	width: 95%;
+}
+
+.flotante-left{
+	float:left;
+	margin-right: 15px; 
+}
+
+.rojo{
+	color: rgb(178,0,0);
+}
+
+.gris{
+	color: rgb(119,119,141);
+}
+
+.enlace-gris, h2, h3{
+	margin-top: 10px;
+}
+
+footer{
+	background-color: rgb(51,51,51);
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	padding: 30px 0px;
+
+}
+
+footer p{
+	width: 20%;
+	margin: 0px;
+}
+
+
+footer p, footer, a, li{
+	color:#FFF;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline;
+}
+
+footer ul li a{
+	text-decoration: none: 
+}
+
+footer ul li a:hover{
+	color: blue; 
+}
+
+.footer_img{
+	height: 70px;
+}
+
+.Barot{
+	display: flex;
+}
+
+.bordes{
+	border-top-style: dotted;
+}
+
+.fotos_art{
+	width: 23%;
+	border-radius: 10px;
+}
+
+.borde-solido{
+	border-top-style: solid;
+}
+
+.fotos2{
+	width: 130px;
+	border-radius: 25px;
+	margin: 5px;
+	padding: 15px;
+
+}
+
+.img-hoteles{
+	padding: 10px 20px 0px 5px
+}
+
+textarea{
+	margin: 10px 0px 0px 46px;
+}
+
+.arriba{
+	padding-top: 10px; 
+}

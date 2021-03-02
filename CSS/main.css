@@ -1,0 +1,50 @@
+.navbar{
+    /*agregamos una sombra a la barra de navegación*/
+    box-shadow: 2px 2px 5px #000;
+    /*cambiando la opacidad*/
+    opacity: .9;
+}
+
+/*cambiar las letras de la barra*/
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+/*agregar una imagen de fondo*/
+
+.main-header{
+    position: relative;
+    background: url(../img/fondobackground.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.background-overlay{
+    position:absolute;
+    background:rgba(83, 92, 104,.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.btn{   
+    border-radius: 0;
+    background-color: gray;
+    border-color: white;
+}
+
+.bg-primary{
+    background-color: grey;
+}
+
+.team{
+    background:#535c68;
+}
+.footer{
+    background:#535c68;
+}

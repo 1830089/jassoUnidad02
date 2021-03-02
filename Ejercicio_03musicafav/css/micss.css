@@ -1,0 +1,34 @@
+#color_div{
+    background-color:#ECBA01;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	width: 80%;
+	background-color: var(--bodyback);
+	margin: auto;
+}
+:root{
+	--texto:#D00000;
+    --bodyback:aqua
+    ;
+}
+.contenido{
+	background-color: #000000;
+	padding: 40px 100px;
+}
+nav ul li{
+	padding: 10px;
+    display: inline;
+}
+nav{
+    background-color: aqua;
+    
+}
+hr{
+    background-color: aqua;
+    
+}
+a{
+    color:goldenrod;
+    font-weight: bold;
+}
