@@ -26,6 +26,7 @@
 					<li><a href="./schedule.php">Schedule</a></li>
 					<li><a href="./venue.php">Venue/Travel</a></li>
 					<li><a href="./register.php">Register</a></li>
+					<li><a href="./listado.php">Listar</a></li>
 					<li><a href="login/./cerrar_sesion.php">Cerrar Sesión</a></li>
 					
 				</ul>

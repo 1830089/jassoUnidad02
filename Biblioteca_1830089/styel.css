@@ -1,0 +1,28 @@
+main{
+	background-color:rgb(56, 183, 241); 
+	padding:50px; 
+    text-align: center;
+}
+
+table{
+	border: solid 1px rgb(5, 2, 2)
+	
+}
+
+th,td{
+	border: solid 1px rgb(10, 2, 2);
+    text-align: center;
+}
+
+
+
+.tabla{
+	border-color: rgb(0, 0, 0);
+	margin-left: 40px;
+    
+}
+
+h1{
+	color:rgb(0, 26, 255);
+    text-align: center;
+}

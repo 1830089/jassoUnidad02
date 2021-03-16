@@ -12,52 +12,23 @@
 						<p>To attend the Roux Academy 2016 Contemporary Art Conference, please complete the information below.</p>
 					</section>
 					<h4>Personal Info</h4>
-					<form action="register_submit" method="POST">
+					<form action="artistas.php" method="POST" enctype="multipart/form-data">
 						<div class="txt">
 							<label>Nombre: </label>
-							<input type="text" name="nombre" id="nombre" placeholder="Last,First">	
-						</div>
-						<div class="txt">
-							<label>Company Name: </label>
-							<input type="text" name="company" id="company">			
-						</div>
-
-						<div class="txt">
-							<label>E-mail </label>
-							<input type="email" name="email" id="email">			
-						</div>
-
-						<div class="radio">
-							<h4>Request Type </h4>
-							<input type="radio" name="question" id="question">
-							<label>Question</label>
-							<br>
-							<input type="radio" name="question" id="question">
-							<label>Comment</label>
+							<input REQUIRED type="text" name="nombre" id="nombre" placeholder="Last,First">	
 						</div>
 
 						<div class="desc">
-							<label> Comment</label>
-							<textarea name="comment" id="comment"></textarea>
+							<label> información</label>
+							<input REQUIRED type="text" name="info" id="info" placeholder="información">	
 							
 						</div>
-
-						<div>
-							<input type="checkbox" name="sub" id="sub">
-							<label> Subscirbe to our mailing list?</label>
-						</div>
-						<label> How did you hear about us?</label>
 						<div class="boton">	
 							<br>
-							<select name="hear" >
-								<option value="0">Choose...</option>
-								<option value="1">A friend</option>
-								<option value="2">Facebook</option>
-								<option value="3">Twitter</option>
-							</select>
+							<input REQUIRED type="file" name="imagen">
 							<br>
-							<input type="submit" name="enviar" value="Aceptar">
 						</div>
+						<input type="submit" name="enviar" value="Aceptar">
 					</form>
 				</main>
 				<aside>
