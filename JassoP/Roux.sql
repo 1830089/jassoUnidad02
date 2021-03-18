@@ -31,12 +31,19 @@ CREATE TABLE `artista` (
   `id_art` int(11) NOT NULL,
   `nombre` varchar(100) COLLATE ucs2_spanish_ci NOT NULL,
   `info` varchar(500) COLLATE ucs2_spanish_ci NOT NULL,
-  `img` varchar(100) COLLATE ucs2_spanish_ci NOT NULL
+  `img` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=ucs2 COLLATE=ucs2_spanish_ci;
 
 --
 -- Volcado de datos para la tabla `artista`
 --
+
+CREATE TABLE 'asistentes' (
+  `id_art` int(11) NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `nombre` varchar(100) NOT NULL,
+  `info` varchar(500) NOT NULL,
+);
+
 
 INSERT INTO `artista` (`id_art`, `nombre`, `info`, `img`) VALUES
 (1, 'Barot Bellingham', 'Barot has just finished his final year at The Royal Academy of Painting and Sculpture, where he excelled in glass etching paintings and portraiture. Hailed as one of the most diverse artists of his generation, Barot is equally as skilled with watercolors as he is with oils.', 'Barot_Bellingham_tn.jpg'),
@@ -66,7 +73,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `user`, `pass`) VALUES
-(1, 'alanbeats', '88e7436afc4ca02741c771e9149a2e7c');
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3');
 
 --
 -- Índices para tablas volcadas

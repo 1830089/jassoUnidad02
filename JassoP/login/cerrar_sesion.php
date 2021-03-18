@@ -7,6 +7,7 @@
 
  <!DOCTYPE html>
  <html>
+	 
  <head>
  	<title>Cerrar</title>
  	<link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -33,6 +34,7 @@
 			<h3>CERRADO DE SESIÓN EXITOSO</h3>
 			<p id="user_para">SALISTE DE ROUX</p>
 			<button id="b_login" name="b_login"><a href="login.php" >VOLVER A INICIAR SESION</a></button>
+			<button id="b_login" name="b_login"><a href="../index.php" >VOLVER A home</a></button>
 		</div>
  	</p>
  </body>

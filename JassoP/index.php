@@ -1,12 +1,12 @@
 <?php 
-	require'login/sesion.php';
+	//require'login/sesion.php';
 	?>
 
 <!DOCTYPE html>
 <html>
 	<?php 
 	
-	require'php/menu.php';?>
+	require'php/menuSusuario.php';?>
 			<div class="principal">
 				<main>
 					<section class="seccion1">

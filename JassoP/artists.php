@@ -22,19 +22,38 @@
 						<h2 class="subtitulo">About the Event</h2>
 						<p>The Roux Academy’s annual conference and exhibit is designed to foster a close-knit relationship amongst artists at various universities around the world. But sign up early, as this not-to-miss conference sells out quickly, and the waiting list is long. In addition, art students are encouraged to send in works from their school portfolios to be considered for hanging in the CAC exhibit halls, as well as to be selected as a Featured Artist.</p>
 					</section>
-					<p>....................................................................................................................................................................................</p>
-					<?php 
-						if($registros->num_rows>0){
-							while($fila = $registros-> fetch_assoc()){
-								echo '<h2 class="title-artist">'.$fila['nombre'].' </h2>';
-								echo '<section class="artist-desc">';
-								echo '<p>'.$fila['info'].'</p>';
-								echo '<img src="img/artists/'.$fila['img'].'">';
-								echo '</section>';
-								echo '<p>....................................................................................................................................................................................</p>';		
+					<table border="2">
+                    <thead>
+                        <tr>
+                             <th style="width:180px;">FOTO</th>
+                             <th> NOMBRE </th>
+                             <th>&nbsp;INFO </th>
+                      </tr>
+					</thead>
+					<tbody>
+						<?php
+							include("./login/loginbd.php");
+							$query = "SELECT * FROM artista";
+							$resultado= $conexion->query($query);
+							while($row = $resultado->fetch_assoc()){
+								?>
+
+								<tr>
+									<td><img height="50px" src="data:image/jpg;base64,<?php echo base64_encode($row['img']); ?>"></td>
+									<td><?php echo $row['nombre'];?></td>
+									<td><?php echo $row['info'];?></td>
+								</tr>
+
+
+
+
+
+
+								<?php
 							}
-						}
-					 ?>
+						?>
+					</tbody>
+                    </table>
 				</main>
 				<aside>
 					<?php require 'php/fArtist.php'; ?>

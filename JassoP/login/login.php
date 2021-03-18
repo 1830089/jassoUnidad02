@@ -13,7 +13,7 @@
 			session_start();
 			$valido=true;
 			$_SESSION['usuario']=$usuario;
-			header('Location: ../index.php');
+			header('Location: ../Indexadmin.php');
 		}
 	}
  ?>

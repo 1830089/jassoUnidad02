@@ -21,8 +21,9 @@
 			</header><!-- /header -->
 			<nav>
 				<ul>
-					<li><a href="./index.php">Home</a></li>
+					<li><a href="./Indexadmin.php">Home</a></li>
 					<li><a href="./artists.php">Artist</a></li>
+					<li><a href="./asistentes.php">Asistentes</a></li>
 					<li><a href="./schedule.php">Schedule</a></li>
 					<li><a href="./venue.php">Venue/Travel</a></li>
 					<li><a href="./register.php">Register</a></li>
